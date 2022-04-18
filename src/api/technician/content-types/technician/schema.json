@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technicians",
+  "info": {
+    "singularName": "technician",
+    "pluralName": "technicians",
+    "displayName": "Technician"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "login": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "private": true
+    }
+  }
+}
